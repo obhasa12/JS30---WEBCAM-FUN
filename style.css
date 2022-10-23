@@ -33,6 +33,7 @@ html {
   .player {
     position: absolute;
     top: 20px;
+    opacity: 0;
     right: 20px;
     width:200px;
   }
@@ -46,7 +47,7 @@ html {
   }
   
   .strip img {
-    width: 100px;
+    width: 500px;
     overflow-x: scroll;
     padding: 0.8rem 0.8rem 2.5rem 0.8rem;
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
